@@ -1,0 +1,93 @@
+/*This is for section with ID "Links"*/
+
+#links {
+    position: fixed;
+    /* to stick on the screen when scrolling*/
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    overflow: auto;
+    background: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#links li {
+    float: left;
+}
+
+#links li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#links li a:hover {
+    background-color: #009933;
+}
+
+
+/*This is for section with ID "Image"*/
+
+#infoPic {
+    display: block;
+    border-radius: 100px;
+    border: 500px;
+    padding-top: 5px;
+    padding-left: 1%;
+}
+
+#image {
+    padding-top: 10px;
+    margin-bottom: 0;
+    height: 100%;
+    width: 160px;
+    background-color: #6293a7;
+    display: block;
+    position: fixed;
+    overflow: auto;
+}
+
+#image>address {
+    display: block;
+}
+
+section #one {
+    text-align: center;
+    font-size: 100%;
+}
+
+section #two {
+    text-align: center;
+    font-size: 13px;
+}
+
+div i {
+    color: #333;
+}
+
+
+/*This is code for section with "Main" id*/
+
+#main {
+    z-index: -1;
+    /*make the section behind the Links and Main*/
+    display: block;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    margin-left: 170px;
+    margin-top: 50px;
+    background-color: #ffffcc;
+    position: static;
+}
+
+#main div {
+    margin-left: 5px;
+}
+
+#food {
+    list-style-type: none;
+}
